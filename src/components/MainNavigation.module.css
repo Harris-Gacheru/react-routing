@@ -1,0 +1,41 @@
+.header{
+    margin: 0;
+    padding: 26px 30px;
+    color: #fff;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .navbar_brand{
+    font-size: 18px;
+    font-weight: bold;
+    color: antiquewhite;
+}
+
+.header .nav{
+    margin: 0; padding: 0;
+}
+
+.header .nav ul{
+    margin: 0; padding: 0;
+    list-style: none;
+}
+
+.header .nav ul li{
+    margin-right: 15px;
+    display: inline-block;
+    background-color: ed;
+}
+
+.header .nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.header .nav ul li a:hover, .header .nav ul li a:focus{
+    border-bottom: 1px solid #fff;
+}
